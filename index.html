@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/hexagonal-gallery.css">
     <link rel="stylesheet" href="assets/css/skillbar.css">
     <link rel="stylesheet" href="assets/css/starbackground.css">
+    <link rel="stylesheet" href="assets/css/style-switcher.css">
     <title>Pedro Fernando</title>
 </head>
 
@@ -52,6 +53,26 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Switch Section -->
+    <div class="style-switcher outer-shadow">
+        <div class="language s-icon outer-shadow hover-in-shadow">
+            <input type="checkbox" class="checkbox" id="chk1" />
+            <label class="label" for="chk1">
+                <i>PT</i>
+                <i>EN</i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <div class="day-night s-icon outer-shadow hover-in-shadow">
+            <input type="checkbox" class="checkbox" id="chk2" />
+            <label class="label" for="chk2">
+                <i class="fas fa-moon fa-xs"></i>
+                <i class="fas fa-sun fa-xs"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
 
     <!-- Intro Section -->
     <div id='stars'></div>
@@ -685,6 +706,8 @@
     <script src="assets/js/typing.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="assets/js/hexagonal-gallery.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="assets/js/language.js"></script>
 </body>
 
 </html>
