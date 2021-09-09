@@ -15,21 +15,21 @@
     --color-hex-default: #000000;
     --color-hex-hover: #FFFFFF;
     --color-reactjs: #61DAFB;
-    --color-atom: #66595C;
-    --color-bootstrap: #563D7C;
-    --color-circleci: #343434;
-    --color-css: #1572B6;
+    --color-java: #007396;
+    --color-nodejs: #339933;
     --color-git: #F14E32;
-    --color-gulp: #DA4648;
-    --color-haskell: #5D4F85;
     --color-html: #E34F26;
     --color-javascript: #F7DF1E;
-    --color-meteor: #DE4F4F;
     --color-python: #3776AB;
-    --color-rails: #CC0000;
-    --color-nodejs: #339933;
-    --color-vuejs: #4FC08D;
-    --color-webpack: #8DD6F9;
+    --color-css: #1572B6;
+    --color-c: #A8B9CC;
+    --color-github: #181717;
+    --color-vscode: #007ACC;
+    --color-canva: #00C4CC;
+    --color-office: #D83B01;
+    --color-notion: #000000;
+    --color-postgresql: #4169E1;
+    --color-linux: #FCC624;
 }
 
 /* Hexagons */
@@ -100,6 +100,7 @@
 }
 
 /* Colors */
+/* Node */
 .color-nodejs {
     background-color: var(--color-nodejs);
 }
@@ -114,48 +115,37 @@
     fill: var(--color-nodejs);
 }
 
+/* React */
 .color-reactjs {
-    background-color: var(--color-reactjs);
+    background-color: #61DAFB;
 }
 
 .color-reactjs::after,
 .color-reactjs::before {
-    border-top-color: var(--color-reactjs);
-    border-bottom-color: var(--color-reactjs);
+    border-top-color: #61DAFB;
+    border-bottom-color: #61DAFB;
 }
 
 .color-reactjs:hover {
-    fill: var(--color-reactjs);
+    fill: #61DAFB;
 }
 
-.color-gulp {
-    background-color: var(--color-gulp);
+/* Java */
+.color-java {
+    background-color: var(--color-java);
 }
 
-.color-gulp::after,
-.color-gulp::before {
-    border-top-color: var(--color-gulp);
-    border-bottom-color: var(--color-gulp);
+.color-java::after,
+.color-java::before {
+    border-top-color: var(--color-java);
+    border-bottom-color: var(--color-java);
 }
 
-.color-gulp:hover {
-    fill: var(--color-gulp);
+.color-java:hover {
+    fill: var(--color-java);
 }
 
-.color-rails {
-    background-color: var(--color-rails);
-}
-
-.color-rails::after,
-.color-rails::before {
-    border-top-color: var(--color-rails);
-    border-bottom-color: var(--color-rails);
-}
-
-.color-rails:hover {
-    fill: var(--color-rails);
-}
-
+/* Git */
 .color-git {
     background-color: var(--color-git);
 }
@@ -170,6 +160,7 @@
     fill: var(--color-git);
 }
 
+/* HTML */
 .color-html {
     background-color: var(--color-html);
 }
@@ -184,6 +175,7 @@
     fill: var(--color-html);
 }
 
+/* JavaScript */
 .color-javascript {
     background-color: var(--color-javascript);
 }
@@ -198,48 +190,37 @@
     fill: var(--color-javascript);
 }
 
-.color-vuejs {
-    background-color: var(--color-vuejs);
+/* C */
+.color-c {
+    background-color: var(--color-c);
 }
 
-.color-vuejs::after,
-.color-vuejs::before {
-    border-top-color: var(--color-vuejs);
-    border-bottom-color: var(--color-vuejs);
+.color-c::after,
+.color-c::before {
+    border-top-color: var(--color-c);
+    border-bottom-color: var(--color-c);
 }
 
-.color-vuejs:hover {
-    fill: var(--color-vuejs);
+.color-c:hover {
+    fill: var(--color-c);
 }
 
-.color-circleci {
-    background-color: var(--color-circleci);
+/* Github */
+.color-github {
+    background-color: var(--color-github);
 }
 
-.color-circleci::after,
-.color-circleci::before {
-    border-top-color: var(--color-circleci);
-    border-bottom-color: var(--color-circleci);
+.color-github::after,
+.color-github::before {
+    border-top-color: var(--color-github);
+    border-bottom-color: var(--color-github);
 }
 
-.color-circleci:hover {
-    fill: var(--color-circleci);
+.color-github:hover {
+    fill: var(--color-github);
 }
 
-.color-webpack {
-    background-color: var(--color-webpack);
-}
-
-.color-webpack::after,
-.color-webpack::before {
-    border-top-color: var(--color-webpack);
-    border-bottom-color: var(--color-webpack);
-}
-
-.color-webpack:hover {
-    fill: var(--color-webpack);
-}
-
+/* CSS */
 .color-css {
     background-color: var(--color-css);
 }
@@ -254,6 +235,7 @@
     fill: var(--color-css);
 }
 
+/* Python */
 .color-python {
     background-color: var(--color-python);
 }
@@ -268,61 +250,97 @@
     fill: var(--color-python);
 }
 
-.color-haskell {
-    background-color: var(--color-haskell);
+/* VS Code */
+.color-vscode {
+    background-color: var(--color-vscode);
 }
 
-.color-haskell::after,
-.color-haskell::before {
-    border-top-color: var(--color-haskell);
-    border-bottom-color: var(--color-haskell);
+.color-vscode::after,
+.color-vscode::before {
+    border-top-color: var(--color-vscode);
+    border-bottom-color: var(--color-vscode);
 }
 
-.color-haskell:hover {
-    fill: var(--color-haskell);
+.color-vscode:hover {
+    fill: var(--color-vscode);
 }
 
-.color-bootstrap {
-    background-color: var(--color-bootstrap);
+/* Canva */
+.color-canva {
+    background-color: var(--color-canva);
 }
 
-.color-bootstrap::after,
-.color-bootstrap::before {
-    border-top-color: var(--color-bootstrap);
-    border-bottom-color: var(--color-bootstrap);
+.color-canva::after,
+.color-canva::before {
+    border-top-color: var(--color-canva);
+    border-bottom-color: var(--color-canva);
 }
 
-.color-bootstrap:hover {
-    fill: var(--color-bootstrap);
+.color-canva:hover {
+    fill: var(--color-canva);
 }
 
-.color-atom {
-    background-color: var(--color-atom);
+/* Microsoft Office */
+.color-office {
+    background-color: var(--color-office);
 }
 
-.color-atom::after,
-.color-atom::before {
-    border-top-color: var(--color-atom);
-    border-bottom-color: var(--color-atom);
+.color-office::after,
+.color-office::before {
+    border-top-color: var(--color-office);
+    border-bottom-color: var(--color-office);
 }
 
-.color-atom:hover {
-    fill: var(--color-atom);
+.color-office:hover {
+    fill: var(--color-office);
 }
 
-.color-meteor {
-    background-color: var(--color-meteor);
+/* Notion */
+.color-notion {
+    background-color: var(--color-notion);
 }
 
-.color-meteor::after,
-.color-meteor::before {
-    border-top-color: var(--color-meteor);
-    border-bottom-color: var(--color-meteor);
+.color-notion::after,
+.color-notion::before {
+    border-top-color: var(--color-notion);
+    border-bottom-color: var(--color-notion);
 }
 
-.color-meteor:hover {
-    fill: var(--color-meteor);
+.color-notion:hover {
+    fill: var(--color-notion);
 }
+
+/* PostgreSQL */
+.color-postgresql {
+    background-color: var(--color-postgresql);
+}
+
+.color-postgresql::after,
+.color-postgresql::before {
+    border-top-color: var(--color-postgresql);
+    border-bottom-color: var(--color-postgresql);
+}
+
+.color-postgresql:hover {
+    fill: var(--color-postgresql);
+}
+
+/* Linux */
+.color-linux {
+    background-color: var(--color-linux);
+}
+
+.color-linux::after,
+.color-linux::before {
+    border-top-color: var(--color-linux);
+    border-bottom-color: var(--color-linux);
+}
+
+.color-linux:hover {
+    fill: var(--color-linux);
+}
+
+
 
 /* Display description */
 .code-display {
@@ -393,13 +411,111 @@ p.code-title {
 .nodejs-desc.desc-active::after {
     background: url(../img/descriptionBackground/nodejs.png);
     background-repeat: no-repeat;
-    background-size: 40% auto;
+    background-size: 35% auto;
     background-position: right center;
 }
 
 .reactjs-desc.desc-active::after {
-    background: url(../img/descriptionBackground/nodejs.png);
+    background: url(../img/descriptionBackground/reactjs.png);
     background-repeat: no-repeat;
-    background-size: 40% auto;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.java-desc.desc-active::after {
+    background: url(../img/descriptionBackground/java.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.git-desc.desc-active::after {
+    background: url(../img/descriptionBackground/git.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.html-desc.desc-active::after {
+    background: url(../img/descriptionBackground/html.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.javascript-desc.desc-active::after {
+    background: url(../img/descriptionBackground/javascript.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.python-desc.desc-active::after {
+    background: url(../img/descriptionBackground/python.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.css-desc.desc-active::after {
+    background: url(../img/descriptionBackground/css.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.c-desc.desc-active::after {
+    background: url(../img/descriptionBackground/c.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.github-desc.desc-active::after {
+    background: url(../img/descriptionBackground/github.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.vscode-desc.desc-active::after {
+    background: url(../img/descriptionBackground/vscode.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.canva-desc.desc-active::after {
+    background: url(../img/descriptionBackground/canva.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.office-desc.desc-active::after {
+    background: url(../img/descriptionBackground/office.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.notion-desc.desc-active::after {
+    background: url(../img/descriptionBackground/notion.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.postgresql-desc.desc-active::after {
+    background: url(../img/descriptionBackground/postgresql.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right center;
+}
+
+.linux-desc.desc-active::after {
+    background: url(../img/descriptionBackground/linux.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
     background-position: right center;
 }
