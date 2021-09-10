@@ -623,8 +623,7 @@ body .timeline {
 }
 
 .cd-timeline__date {
-    color: hsla(207, 10%, 55%, 0.7);
-    color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.7)
+    color: white;
 }
 
 @media (min-width: 64rem) {
